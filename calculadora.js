@@ -12,3 +12,15 @@ const sumar = () => {
     const valores = getValues();
     result.value = valores[0] + valores[1];
 }
+const restar = () => {
+    const valores = getValues();
+    result.value = valores[0] - valores[1];
+}
+const multiplicar = () => {
+    const valores = getValues();
+    result.value = valores[0] * valores[1];
+}
+const dividir = () => {
+    const valores = getValues();
+    result.value = valores[0] / valores[1];
+}
