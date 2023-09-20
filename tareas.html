@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas con Javascript</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            background-color: seagreen;
+            width: 400px;
+            padding: 20px;
+            height: 490px;
+            margin: 0 auto;
+            padding: 5px;
+            border-radius: 50px;
+            text-align: center;
+            box-shadow: 5px 5px 5px 5px brown
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas con Javascript</h1>
+        <div id="formulario">
+            <h2>Ingresa Tarea</h2>
+            <textarea name="" id="inputTarea" cols="30" rows="10"></textarea>
+            <h2>hora</h2>
+            <input type="time" name="" id="tiempo">
+            <button onclick="addTarea()">Agregar Tarea</button>
+        </div>
+        <div id="tareas">
+            <h2>Tarea</h2>
+            <ul></ul>
+        </div>
+    </div>>
+    <script src="./tareas.js"></script>
+</body>
+</html>
